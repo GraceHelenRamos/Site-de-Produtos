@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(black, rgb(202, 58, 147), white);
+    /* criando o meu fundo */
+}
+
+.form{
+width: 400px;
+margin: auto;
+padding: 40px;
+}	
+
+.card{
+box-shadow: 1px 1px 5px #ccc;
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+}
+
+.card-top{
+text-align: center;
+}
+
+.card-group{
+margin-bottom: 10px;
+}
+
+.card-group > label{
+width: 100%;
+color: rgb(75, 75, 75);
+display: block;	
+}	
+
+.card-group > input{
+border-radius: 5px;
+width: 100%;
+height: 25px;
+outline: 0;
+padding: 5px;
+}
+
+.card-group > button{
+background-image: linear-gradient(to right,  rgb(202, 58, 147), black);
+width: 100%;
+border-radius: 30px;
+padding: 15px;
+color: #FFFFFF;
+border: 0px;
+outline: 0;	
+}
+
+.imglogin{
+width: 200px;
+border-radius: 50px;
+box-shadow: 1px 1px 5px #000;
+}	
+
+.btn button:hover{
+background-image: linear-gradient(to right,black, rgb(202,58,147));	
+}	
+
+.titulo{
+color:rgb(165, 12, 106);
+}	
